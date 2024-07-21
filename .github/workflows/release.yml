@@ -17,5 +17,8 @@ jobs:
     - uses: wangyoucao577/go-release-action@v1
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        goos: linux
-        goarch: amd64
+        goos: [linux, darwin]
+        goarch: [amd64, arm64]
+        exclude:
+        - goarch: "386"
+          goos: darwin
