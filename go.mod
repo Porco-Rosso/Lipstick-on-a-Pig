@@ -1,6 +1,6 @@
 module github.com/Porco-Rosso/lipstick-on-a-pig
 
-go 1.23
+go 1.22.5
 
 require github.com/charmbracelet/lipgloss v0.9.1
 
