@@ -30,3 +30,4 @@ jobs:
                 binary_name: "lipgloss-on-a-pig"
                 overwrite: TRUE
                 goversion: '1.22.5'
+                compress_assets: 'OFF'
