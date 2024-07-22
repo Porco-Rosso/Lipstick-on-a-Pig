@@ -28,7 +28,7 @@ jobs:
                 goos: ${{ matrix.goos }}
                 goarch: ${{ matrix.goarch }}
                 binary_name: "lipgloss-on-a-pig"
-                asset_name: "${BINARY_NAME}_${{ matrix.goos }}_${{ matrix.goarch }}"
+                asset_name: "lipgloss-on-a-pig_${{ matrix.goos }}_${{ matrix.goarch }}"
                 #overwrite: TRUE
                 goversion: '1.22.5'
                 compress_assets: 'OFF'
