@@ -6,6 +6,16 @@ Simple MOTD using golang and [Lipgloss](https://github.com/charmbracelet/lipglos
 
 I use it to get basic information when I log in to my many containers and VMs. Should work on any modern version of Mac, Debian and probably other linux distros. First time programming in go, but at least it Looks pretty!
 
+Shows:
+- OS
+- Local IP
+- Total Disk space and free space
+- Uptime
+- RAM size and usage
+- CPU size and usage
+
+Color is selected based on a hash of the hostname!
+
 Pull requests welcome!
 
 ## Install
@@ -16,7 +26,7 @@ Pull requests welcome!
 
 Download the binary and move it to the proper place
 ```bash
-wget https://github.com/Porco-Rosso/Lipstick-on-a-Pig/releases/latest/download/lipgloss-on-a-pig_darwin_amd64
+wget https://github.com/Porco-Rosso/Lipstick-on-a-Pig/releases/latest/download/lipgloss-on-a-pig_linux_amd64
 mkdir /usr/local/bin/
 mv lipgloss-on-a-pig_darwin_amd64 /usr/local/bin/lipgloss-on-a-pig
 ```
@@ -48,7 +58,7 @@ test it out
 
 `apt install golang -y` or follow the installation instructions on [go.dev](https://go.dev/doc/install)
 
-`git clone zzz`
+`git clone https://github.com/Porco-Rosso/Lipstick-on-a-Pig.git`
 
 `cd Lipstick-on-a-Pig`
 
