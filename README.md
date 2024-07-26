@@ -4,7 +4,9 @@
 
 Simple MOTD using golang and [Lipgloss](https://github.com/charmbracelet/lipgloss) by [Charm©](https://charm.sh/)
 
-I use it to get basic information when I log in to my many containers and VMs. Should work on any modern version of Mac, Debian and probably other linux distros. Looks pretty.
+I use it to get basic information when I log in to my many containers and VMs. Should work on any modern version of Mac, Debian and probably other linux distros. First time programming in go, but at least it Looks pretty!
+
+Pull requests welcome!
 
 ## Install
 
