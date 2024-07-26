@@ -22,6 +22,10 @@ Pull requests welcome!
 
 ### Script
 
+If you like to live dangerously:
+
+`bash <(wget -qO- https://raw.githubusercontent.com/Porco-Rosso/Lipstick-on-a-Pig/main/install.sh)`
+
 ### Manual
 
 Download the binary and move it to the proper place
