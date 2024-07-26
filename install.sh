@@ -1,6 +1,14 @@
 #! /bin/bash
 
-# Warn user of destruction
+# Check if interactive and warn user of destruction
+case $- in
+*i*)
+	printf "\033[1;31mThis script will permanently delete your current MOTD. I am not responsible for any potential harm.\033[0m\n"
+	printf "\033[1;31mAre you sure you want to proceed?\033[0m\n"
+	read -p -r "Continue (y/n)?" CONT
+	;;
+*) CONT="y" ;;
+esac
 printf "\033[1;31mThis script will permanently delete your current MOTD. I am not responsible for any potential harm.\033[0m\n"
 printf "\033[1;31mAre you sure you want to proceed?\033[0m\n"
 read -p -r "Continue (y/n)?" CONT
@@ -68,5 +76,4 @@ if [ "$CONT" = "y" ]; then
 
 else
 	printf "\033[1;31mBetter safe than sorry, maybe try manually installing?\033[0m\n"
-	return
 fi
