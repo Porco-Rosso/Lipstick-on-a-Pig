@@ -34,7 +34,7 @@ Download the binary and move it to the proper place
 ```bash
 wget https://github.com/Porco-Rosso/Lipstick-on-a-Pig/releases/latest/download/lipgloss-on-a-pig_linux_amd64
 mkdir /usr/local/bin/
-mv lipgloss-on-a-pig_darwin_amd64 /usr/local/bin/lipgloss-on-a-pig
+mv lipgloss-on-a-pig_linux_amd64 /usr/local/bin/lipgloss-on-a-pig
 ```
 
 make executable
