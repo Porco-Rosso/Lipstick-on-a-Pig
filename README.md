@@ -24,7 +24,9 @@ Pull requests welcome!
 
 If you like to live dangerously:
 
-`bash <(wget -qO- https://raw.githubusercontent.com/Porco-Rosso/Lipstick-on-a-Pig/main/install.sh)`
+```bash
+bash <(wget -qO- https://raw.githubusercontent.com/Porco-Rosso/Lipstick-on-a-Pig/main/install.sh)
+```
 
 ### Manual
 
@@ -70,6 +72,6 @@ Make your changes to `lipstick-on-a-pig.go`
 
 `CGO_ENABLED=0 go build`
 
-You should end up with a binary named lipstick-on-a-pig for your OS and arch
+You should end up with a binary named lipstick-on-a-pig for your OS and arch.
 
 
