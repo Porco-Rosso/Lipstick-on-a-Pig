@@ -48,11 +48,11 @@ echo -n >/etc/update-motd.d/10-uname
 echo -n > /etc/motd
 ```
 
-Add to .bashrc so it displays at login
+Add to the line below to .bashrc so it displays at login
 ```bash
-LINE='/usr/local/bin/lipgloss-on-a-pig"'
-FILE='~/.bashrc'
-grep -qF -- "$LINE" "$FILE" || echo "$LINE" >> "$FILE"
+nano ~/.bashrc
+
+/usr/local/bin/lipgloss-on-a-pig
 ```
 
 test it out
